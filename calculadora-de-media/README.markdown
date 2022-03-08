@@ -1,5 +1,6 @@
 # Calculadora de média
-
+# Preview 
+<img src="./preview.png"></img>
 
 
 # CODEPEN INFO
