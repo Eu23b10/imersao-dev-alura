@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imersão Dev Alura - Aula 01 - Calculadora de média</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body class="body">
+  <a href="https://alura.com.br/" target="_blank">
+  <img src="./../assets/images/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+</body>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+    Calculadora de média</h1>
+    <p class="page-subtitle">
+    Descubra qual a sua média de nota de todos os bimestres!
+    </p>
+    <img src="./../assets/images/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+    <div id="controller">
+      <div class="row">
+        <input type="number"  maxlength="2" min="0" max="10" placeholder="Primeiro" name="value-one" id="value-one">
+        <input type="number"  maxlength="2" min="0" max="10" placeholder="Segundo" name="value-two" id="value-two">
+        <input type="number"  maxlength="2" min="0" max="10" placeholder="Terceiro" name="value-one" id="value-three">
+        <input type="number"  maxlength="2" min="0" max="10" placeholder="Quarto" name="value-two" id="value-four">
+      </div>
+      <input type="button" id="mean" value="Calcular Media">
+      <div id="result"></div>
+    </div>
+  </div>
+  
+  <script src="./app.js"></script>
+</body>
+</html>

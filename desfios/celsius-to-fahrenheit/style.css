@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Hubbal";
+    src: url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap'); 
+};
+
+* {
+    font-family: "Hubbal";
+}
+body {
+    font-family: 'Roboto Mono',monospace;
+    max-height: 100vh;
+    overflow: hidden;
+    /* background-image: url('https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png'); */
+    background-color: #000000;
+    background-size: 80vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    animation: shade .3s;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+  }
+  
+  .page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color:#ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  #controller {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #controller  * {
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+  }
+  
+  #controller div {
+    color: #fff;
+  }
+  
+  input {
+    text-align: center;
+  }
+
+  @keyframes shade{
+    from {
+        transform: translateX(140vw);
+    }
+    to {
+        transform: translateX(0);
+    }
+  }
